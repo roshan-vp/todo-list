@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+body {
+    background-color: #000;
+}
+
+#todo-list::-webkit-scrollbar {
+    display: none;
+}
+
+#todo-mark {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#animation {
+    transition: 100ms ease-in-out ;
+}
+
+#hi {
+    text-overflow: ellipsis;
+}
